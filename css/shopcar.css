@@ -1,0 +1,342 @@
+body{
+	font-size: 12px;
+}
+body a:hover{
+	text-decoration: underline;	
+}
+header{
+	width: 100%;
+	height: 27px;
+	background: #f6f6f6;
+	color: #666;
+}
+header>div{
+	width: 1000px;
+	margin: 0 auto;
+	line-height: 27px;
+}
+header>div a{
+	color: #666;
+	padding: 0 3px;
+	float: left;
+}
+header>div a:hover{
+	color: #cc0001;
+}
+header>div>div:nth-child(1){
+	float: left;
+	width: 400px;
+	overflow: hidden;
+}
+header>div>div:nth-child(2){
+	float: right;
+}
+header>div>div:nth-child(2) li{
+	float: left;
+}
+header>div>div:nth-child(2) li>i{
+	background: #cfcfcf;
+	width: 1px;
+	font-size: 0;
+	height: 12px;
+	display: inline-block;
+	float: left;
+	margin: 8px 5px 0;
+}
+header>div>div:nth-child(2) li>span{
+	color: #ca1926;
+	font-style: italic;
+	font-size: 16px;
+	position: relative;
+	top: 2px;
+	padding-left: 5px;
+	font-weight: 900;
+}
+#midheader{
+	width: 100%;
+	height: 90px;
+	background: #fff;
+}
+#midheader>div{
+	width: 1000px;
+	margin: 0 auto;
+}
+#midheader>div>div:nth-child(1){
+	float: left;
+	height: 65px;
+	margin-top: 20px;
+	width: 257px;
+}
+#midheader>div>div:nth-child(1)>a{
+	display: block;
+	height: 65px;
+	width: 140px;
+	background: url(../img/logo.png) no-repeat;
+}
+#midheader>div>div:nth-child(2){
+	float: right;
+	margin-top: 25px;
+}
+#midheader>div>div:nth-child(2)>div:nth-child(1){
+	width: 396px;
+	height: 27px;
+	background: url(../img/process.png) no-repeat;
+	margin: 0 26px 0 16px;
+}
+#midheader>div>div:nth-child(2)>div:nth-child(2){
+	width: 438px;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-top: 8px;
+}
+#midheader>div>div:nth-child(2)>div:nth-child(2)>span{
+	color: #aaa;
+	margin-right: 114px;
+}
+section{
+	width: 1000px;
+	margin: 30px auto 0;
+}
+section>div{
+	width: 100%;
+}
+section>div>div:nth-child(1){
+	width: 100%;
+	height: 34px;
+}
+section>div>div:nth-child(1)>p{
+	float: left;
+	font-weight: bolder;
+	color: #333;
+	font-size: 14px;
+	line-height: 34px;
+}
+section>div>div:nth-child(1)>p>span{
+	margin-left: 10px;
+	position: relative;
+	top: 1px;
+}
+section>div>div:nth-child(2){
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #e8e8e8;
+}
+section>div>div:nth-child(2) .tab_tr{
+	color: #999;
+}
+section .tab_tr{
+	float: left;
+	color: #000;
+	text-align: center;
+	min-height: 18px;
+}
+section>div>div:nth-child(3) .tab_tr{
+	color: #000;
+}
+section .cart_checkbox{
+	position: relative;
+	float: left;
+	margin: 0 0 0 20px;
+	width: 24px;
+	height: 15px;
+	display: inline;
+}
+section .tab_tr>label{
+	display: inline-block;
+	width: 24px;
+	margin-top: 12px;
+	cursor: pointer;
+}
+section .tab_tr>label>i{
+	width: 15px;
+	height: 15px;
+	background: url(../img/cartIcon.png)  0 -58px;
+	margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+section .tab_tr>label>input{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	display: none;
+}
+section .cart_checkbox>span{
+	font-size: 12px;
+	color: #333;
+	position: absolute;
+	left: 24px;
+	top: 0;
+	width: 50px;
+	text-align: left;
+	display: inline-block;
+}
+section .cart_goods{
+	width: 300px;
+	color: #999999;
+	text-indent: 93px;
+	text-align: left;
+	overflow: hidden;
+}
+section .cart_goods .goods_img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: left;
+	position: relative;
+	text-indent: 0;
+}
+section .cart_goods .goods_img>img{
+	width:100%;
+	height:100%
+}
+section .cart_goods >div{
+	margin-left: 90px;
+	text-indent: 0;
+}
+section .cart_price{
+	width: 166px;
+}
+section .cart_price>span{
+	display: inline-block;
+}
+section .cart_gold{
+	width: 114px;
+}
+section .cart_quantity{
+	width: 132px;
+}
+section .cart_quantity .goods_num{
+	width: 78px;
+	height: 20px;
+	border: 1px solid #d0d0d0;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+	top: -2px;
+}
+section .cart_quantity .goods_num>p{
+	float: left;
+	width: 18px;
+	height: 20px;
+}
+section .cart_quantity .goods_num>p>i{
+	display: block;
+	width: 17px;
+	height: 20px;
+	background: url(../img/cartIcon.png) no-repeat;
+}
+section .cart_quantity .goods_num>p .subtract{
+	background-position:-15px -94px ;
+	border-right: 1px solid #d0d0d0;
+}
+section .cart_quantity .goods_num>p .add{
+	background-position: -34px -94px;
+	border-left: 1px solid #d0d0d0;
+}
+section .cart_quantity .goods_num .num{
+	width: 42px;
+	height: 20px;
+	display: block;
+	float: left;
+	border: none;
+	line-height: 20px;
+	text-align: center;
+	color: #333;
+}
+section .cart_total{
+	width: 140px;
+}
+section .cart_operate{
+	width: 102px;
+	text-align: left;
+}
+section .cart_operate>p{
+	line-height: 18px;
+	margin-bottom: 5px;
+}
+section .cart_operate>p>a{
+	color: #666;
+}
+section>div>div:nth-child(3){
+	margin-top: 12px;
+}
+section>div>div:nth-child(3)>div{
+	border-top: 2px solid #b7b7b7;
+	border-right: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+section>div>div:nth-child(3) .p_type{
+	border-bottom: 1px solid #e8e8e8;
+	padding: 20px 0;
+	overflow: hidden;
+}
+section>div>div:nth-child(3) .p_type .cart_list{
+	color: #f00;
+}
+section>div>div:nth-child(3) .p_type label{
+	margin-top: 0;
+}
+section>div>div:last-child{
+	height: 60px;
+	background: #f8f8f8;
+	border: 1px solid #e8e8e8;
+	width: 978px;
+	margin-top: 20px;
+	padding-left: 20px;
+	position: relative;
+	line-height: 60px;
+}
+section>div>div:last-child .cartbtn{
+	width: 120px;
+	height: 62px;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	z-index: 100;
+}
+section>div>div:last-child .cartbtn>a{
+	display: block;
+	width: 120px;
+	height: 62px;
+	background: #e43a3d;
+	color: #fff;
+	text-align: center;
+	line-height: 62px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+section>div .cart_bottom{
+	float: right;
+	margin-right: 150px;
+	padding: 5px 0;
+	height: 50px;
+} 
+section>div .cart_bottom>span:nth-child(1){
+	margin-right: 25px;
+}
+section>div .cart_bottom>span>em{
+	color: #e43a3d;
+	font-size: 16px;
+	margin: 0 5px;
+}
+
+.loadFifth .footer .footerTop,.footerServices,.footerBot{
+	width:1000px
+}
+.footerServices ul li {
+    width: 120px;
+    float: left;
+    display: inline;
+    margin-right: 15px;
+}
+.footerServices ul li h3 span {
+    width: 60px;
+}
+.footerServices ul li p {
+    padding-left: 35px;
+}

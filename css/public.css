@@ -1,0 +1,501 @@
+#top{
+	height:119px;
+	background: #F2F2F2;
+}
+#top a{
+	color: #999;
+}
+#top a:hover{
+	text-decoration: underline;
+	color:#c00;
+}
+#top>div{
+	width:1200px;
+	height:28px;
+	border-bottom: 1px solid #e5e5e5;
+	background: #f2f2f2;
+	font-size: 12px;
+	line-height: 28px;
+	z-index: -1;
+	margin:0 auto
+}
+#top>div>div{
+	color: #999;
+	float: left;
+}
+#top>div>div:nth-child(1){
+	width:370px
+}
+#top>div>div:nth-child(1)>a{
+	margin-left:5px;
+}
+#top>div>div:nth-child(2){
+	float: right;
+}
+#top>div>div:nth-child(2)>ul{
+	float: left;
+}
+#top>div>div:nth-child(2)>div{
+	float: left;
+}
+#top>div>div>ul>li{
+	float: left;
+	padding: 0 5px;
+	position: relative;
+}
+#top>div>div>ul .h{
+	border-left:1px solid #f2f2f2 ;
+	border-right:1px solid #f2f2f2 ;
+}
+#top>div>div>ul>li>ul{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 28px;
+	background: #fff;
+	border:1px solid #e5e5e5;
+	z-index:1;
+	border-top: none;
+	margin-left: -1px;
+	display: none;
+}
+#top>div>div>ul>li>ul>li{
+	padding: 0 5px;
+}
+#top>div>div>ul .on{
+	border-left:1px solid #e5e5e5 ;
+	border-right:1px solid #e5e5e5 ;
+	background: #fff;
+}
+#top>p{
+	width:100%;
+	height:90px;
+}
+#top>p>a{
+	display: block;
+	width:100%;
+	height:90px;
+	background: url(../img/pic1.jpg) no-repeat top center;
+}
+#header{
+	height:125px;
+	background: #fff;
+}
+#header>div{
+	width:1200px;
+	height:100%;
+	margin: 0 auto;
+}
+#header>div>div:nth-child(1){
+	width: 257px;
+	height: 65px;
+	float: left;
+	display: inline-block;
+	margin-top: 30px;
+	overflow: hidden;
+}
+#header>div #search{
+	width: 540px;
+	float: left;
+	display: inline-block;
+	margin: 32px 0 0 20px;
+}
+#header>div #search>div:nth-child(1){
+	height: 32px;
+	border: 3px solid #c00;
+	position: relative;
+	z-index: 222;
+}
+#header>div #search>div:nth-child(1)>input:nth-child(1){
+	width:439px;
+	height: 22px;
+	line-height: 22px;
+	padding: 5px;
+	border: 0 none;
+	color: #666;
+	float: left;
+}
+#header>div #search>div:nth-child(1)>input:nth-child(2){
+	width: 85px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border: 0;
+	font-size: 16px;
+	color: #fff;
+	background: #c00;
+	cursor: pointer;
+	float: right;
+}
+#header>div #search>div:nth-child(2){
+	width:100%;
+	height: 18px;
+	overflow: hidden;
+	padding-top: 5px;
+	font-size: 14px;
+}
+#header>div #search>div:nth-child(2)>li{
+	float: left;
+	height: 18px;
+}
+#header>div #search>div:nth-child(2)>li>a{
+	border-right:1px solid #999999;
+	color: #999;
+	padding: 0 8px;
+}
+#header>div #search>div:nth-child(2)>li>a:hover{
+	text-decoration: underline;
+	color: #c00;
+}
+#header>div>div:nth-child(3){
+	width: 363px;
+	float: right;
+	height: 64px;
+	margin: 33px 0 0 0;
+	background: url(../img/pic2.png);
+}
+#main{
+	position: relative;
+}
+#main>div{
+	width:100%;
+}
+#main>div:nth-child(1){
+	height:34px;
+	background: #900;;
+}
+#main>div:nth-child(1)>div{
+	width:1200px;
+	height:100%;
+	margin:0 auto ;
+}
+#main>div:nth-child(1)>div>div:nth-child(1)>a{
+	display: block;
+	width: 190px;
+	height: 34px;
+	line-height: 34px;
+	background: #ce171f;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 600;
+	box-shadow: 4px 2px 5px rgba(0,0,0,0.2);
+	float: left;
+}
+#main>div:nth-child(1)>div>ul{
+	float: left;
+	width: 890px;
+	height:100%;
+}
+#main>div:nth-child(1)>div>ul>li{
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+#main>div:nth-child(1)>div>ul>li>a{
+	height: 34px;
+	color: #fff;
+	font-size: 14px;
+	padding: 0 22px;
+}
+#main>div:nth-child(1)>div>ul .act{
+	background: #b40c10;
+}
+.loadFifth{
+	width: 100%;
+	height: 490px;
+}
+.loadFifth .footer{
+	width: 100%;
+	height:490px;
+	background: #f9f9f9;
+}
+.footerTopBox{
+	width: 100%;
+	height:289px;
+	background: #333;
+}
+.topHeaderCon, .midHeaderCon, .navWrap .nav, .footerTop, .footerServices, .footerBot, .ban_cter {
+	width: 1200px;
+}
+.footerTop{
+	margin: 0 auto;
+	height: 84px;
+	border-bottom: 1px solid #494949;
+}
+.footerContact {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 22px 0;
+    font-family: "微软雅黑";
+}
+.publicIcon{
+	background: url(../img/public-24.png);
+}
+.footerContact i, .footerContact b, .footerContact span{
+	display: inline-block;
+	float: left;
+}
+.footerContact i{
+	width: 40px;
+	height: 40px;
+	background-position: -144px -22px;
+	margin-right: 18px;
+}   
+.footerContact b {
+    font-size: 24px;
+    color: #c00;
+    margin-right: 25px;
+}
+.footerContact span {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 8px;
+}
+.footerTop .footerTopRight {
+    float: right;
+    height: 32px;
+    padding: 26px 0;
+}
+.footerTopRight .ftRight-tit {
+    float: left;
+    line-height: 32px;
+    color: #fff;
+    font-family: "微软雅黑";
+    padding-right: 10px;
+}
+.footerTopRight .ftRight-form {
+    float: left;
+    width: 240px;
+    height: 30px;
+    border: 1px solid #494949;
+    position: relative;
+    z-index: 99;
+}
+.footerTopRight .ftRight-form input {
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 6px;
+    background: 0;
+    border: 0;
+    float: left;
+    color: #fff;
+    outline: 0;
+}
+.footerTopRight .ftRight-form span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    position: absolute;
+    left: 6px;
+    top: 0;
+}
+.footerTopRight .ftRight-form i {
+    display: inline-block;
+    width: 22px;
+    height: 18px;
+    background-position: -133px 0;
+    margin: 6px 0 0 10px;
+    cursor: pointer;
+    float: left;
+}
+.footerServices {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0 60px;
+}
+.footerServices ul li {
+    width: 158px;
+    float: left;
+    display: inline;
+    margin-right: 15px;
+}
+.footerServices ul li h3 {
+    font-weight: normal;
+    height: 26px;
+    line-height: 26px;
+    padding: 5px 0;
+}
+.footerServices ul li h3 i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 9px;
+    float: left;
+}
+.footerServices ul li.servicesItme01 h3 i {
+    background-position: 0 -131px;
+}
+.footerServices ul li h3 span {
+    display: inline-block;
+    width: 123px;
+    font-size: 14px;
+    color: #fff;
+    font-family: "微软雅黑";
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.footerServices ul li p {
+    width: 95px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.footerServices ul li p, .footerServices ul li h3 span {
+    width: 123px;
+}
+.footerServices ul li p a, .footerServices ul li p a:hover {
+    color: #ccc;
+    font-size: 12px;
+}
+.footerServices ul li.servicesItme02 h3 i {
+    background-position: -30px -131px;
+}
+.footerServices ul li.servicesItme03 h3 i {
+    background-position: -60px -131px;
+}
+.footerServices ul li.servicesItme04 h3 i {
+    background-position: -90px -131px;
+}
+.footerServices ul li.servicesItme05 h3 i {
+    background-position: -120px -131px;
+}
+.footerServices ul li.servicesItme06 h3 i {
+    background-position: -150px -131px;
+}
+.footerServices ul li.jxMicroblogging {
+    margin-right: 0;
+}
+.jxMicroblogging .item {
+    width: 130px;
+    height: 28px;
+    line-height: 28px;
+    padding: 5px 0 13px;
+    position: relative;
+    font-size: 12px;
+}
+.jxMicroblogging .item a {
+    display: inline-block;
+    color: #fff;
+    font-family: "微软雅黑";
+    float: left;
+}
+.jxMicroblogging .item i {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 9px;
+    float: left;
+    cursor: pointer;
+}
+.jxMicroblogging .sinaMb i {
+    background-position: -140px -74px;
+}
+.jxMicroblogging .weixin i {
+    background-position: -103px -74px;
+}
+.footerBot {
+    margin: 0 auto;
+    padding: 20px 0 40px;
+}
+.footerBotLeft {
+    float: left;
+    width: 760px;
+    overflow: hidden;
+}
+.footerBotLeft a{
+	color: #666;
+}
+.footerBotLeft .footerInfo {
+    height: 16px;
+    padding: 4px 0;
+    overflow: hidden;
+    position: relative;
+    left: -8px;
+    margin-left: 0;
+}
+.footerBotLeft p {
+    line-height: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+.footerBotLeft .footerInfo a {
+    display: inline-table;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 8px;
+    overflow: hidden;
+    position: relative;
+}
+.footerBotLeft .footerInfo a i {
+    width: 1px;
+    height: 12px;
+    background: #999;
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    overflow: hidden;
+    display: block;
+}
+.footerBotLeft .friendLink {
+    padding: 17px 0 3px 0;
+    color: #999;
+    height: 20px;
+    width: 740px;
+    overflow: hidden;
+}
+.footerBotLeft .friendLink span {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    max-width: 700px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    left: -5px;
+}
+.footerBotLeft .friendLink a {
+    color: #999;
+    margin: 0 5px;
+}
+.footerBotLeft .copybot {
+    height: 47px;
+}
+.footerBotLeft .footerPro {
+    color: #cc0000;
+    padding: 11px 8px 6px;
+}
+.footerBotCode {
+    width: 240px;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+.footerBotCode div {
+    float: left;
+    width: 80px;
+    display: inline;
+    margin-left: 40px;
+}
+.footerBotCode div .codePic {
+    width: 80px;
+    height: 80px;
+}
+.footerBotCode div .codeText {
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 5px;
+    font-size: 12px;
+}

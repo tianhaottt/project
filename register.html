@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/all.css" />
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_1306436_4macf0nruc9.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div>
+				<div>
+					<a href="index.html" style="width:140px; background: url(img/logo.png) no-repeat;"></a>
+					<a href="#" style="width:117px;background: url(img/slogan.jpg) no-repeat;"></a>
+				</div>
+				<div>
+					<div>
+						<span>帮助中心</span>
+						<i></i>
+					</div>
+					<ul>
+						<li><a href="#">配送说明</a></li>
+						<li><a href="#">支付方式</a></li>
+						<li><a href="#">售后服务</a></li>
+						<li><a href="#">企业客户</a></li>
+					</ul>
+				</div>
+				<div>
+					欢迎来到酒仙网!
+					<a href="login.html">请登录</a>
+				</div>
+			
+			</div>
+		</div>
+		<div id="section">
+			<div>
+				<div>
+					<a href="#" id="company">企业用户注册</a>
+					<a href="#" class="on" id="person">个人用户注册</a>
+				</div>
+			</div>
+			<div class="person">
+				<form action="" >
+					<div class="m15">
+						<div class="regLabel">手机号</div>
+						<div class="regInput">
+							<input type="text" class="rinput" id="account"/>
+							<i style="background-position: -50px 2px;"></i>
+						</div>
+					</div>
+					<div class="m15">
+						<div class="regLabel">验证码</div>
+						<div class="regInput">
+							<input type="text" class="rinput"/>
+							<i style="background-position: -422px 2px;"></i>
+							<span><img src="img/code.jpg" alt="" /></span>
+						</div>
+					</div>
+					<div class="m15">
+						<div class="regLabel">校验码</div>
+						<div class="regInput">
+							<input type="text" class="rinput reinput"/>
+							<i style="background-position: -259px 1px;"></i>
+							<div><span>获取短信验证码</span></div>
+						</div>
+					</div>
+					<div class="m15">
+						<div class="regLabel">设置密码</div>
+						<div class="regInput">
+							<input type="text" class="rinput" id="pwd"/>
+							<i style="background-position: -77px 2px;"></i>
+						</div>
+					</div>
+					<div class="m15">
+						<div class="regLabel">确认密码</div>
+						<div class="regInput">
+							<input type="text" class="rinput"/>
+							<i style="background-position: -77px 2px;"></i>
+						</div>
+					</div>
+					<div class="m8">
+						<div>
+							<input type="checkbox" class="check" checked="checked"/>
+							<span>我已阅读并同意<a href="#">《酒仙网用户注册协议》</a></span>
+						</div>
+					</div>
+					<div class="m8">
+						<div>
+							<input type="button" class="btn" value="立 即 注 册"/>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="company">
+				<form action="" >
+					<div class="accountInfo">
+						<h3>账户信息</h3>
+						<span>（*为必填项，请确认填写正确。）</span>
+					</div>
+					<div class="message">
+						<span>用户名</span>
+						<div>
+							<i style="background-position: -51px 0px;"></i>
+							<input type="text" id="account"/>
+						</div>
+						<div>*</div>
+					</div>
+					<div class="message">
+						<span>邮箱</span>
+						<div>
+							<i style="background-position: -230px 4px;"></i>
+							<input type="text" />
+						</div>
+						<div>*</div>
+					</div>
+					<div class="message">
+						<span>设置密码</span>
+						<div>
+							<i style="background-position: -81px 0px;"></i>
+							<input type="text" id="pwd"/>
+						</div>
+						<div>*</div>
+					</div>
+					<div class="message">
+						<span>确认密码</span>
+						<div>
+							<i style="background-position: -81px 0px;"></i>
+							<input type="text" />
+						</div>
+						<div>*</div>
+					</div>
+					<div class="accountInfo">
+						<h3>公司信息</h3>
+						<span>（*为必填项，请确认填写正确。）</span>
+					</div>
+					<div class="message">
+						<span>联系人姓名</span>
+						<div>
+							<i style="background-position: -51px 0px;"></i>
+							<input type="text" />
+						</div>
+						<div>*</div>
+					</div>
+					<div class="message">
+						<span>手机号</span>
+						<div>
+							<i style="background-position: -263px 1px;height: 27px;margin-top: 8px;"></i>
+							<input type="text" />
+						</div>
+						<div>*</div>
+					</div>
+					<div class="message">
+						<span>联系电话</span>
+						<div>
+							<i style="background-position: -298px 1px;height:23px;margin-top: 8px;"></i>
+							<input type="text" />
+						</div>
+					</div>
+					<div class="message">
+						<span>公司名称</span>
+						<div>
+							<i style="background-position: -326px 0px;width:26px"></i>
+							<input type="text" />
+						</div>
+						<div>*</div>
+					</div>
+					<div class="message">
+						<span>公司所在地</span>
+						<div style="border: none;">
+							<select name="" id=""></select>
+							<select name="" id=""></select>
+							<select name="" id=""></select>
+						</div>
+						<div>*</div>
+					</div>
+					<div class="message">
+						<span>详细地址</span>
+						<div>
+							<i style="background-position: -363px 0px;height: 25px;"></i>
+							<input type="text" />
+						</div>
+						<div>*</div>
+					</div>
+					<div class="message">
+						<span>验证码</span>
+						<div>
+							<i style="background-position: -425px 0px;height: 25px;"></i>
+							<input type="text" class="w200"/>
+							<span><img src="img/code.jpg" alt="" /></span>
+							<i class="reload"></i>
+						</div>
+						<div>*</div>
+					</div>
+					<div class="p101">
+						<input type="checkbox" class="check" checked="checked"/>
+						<span>我已阅读并同意<a href="#">《酒仙网用户注册协议》</a></span>
+					</div>
+					<div class="p101">
+						<input type="button" class="btn" value="立 即 注 册"/>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<p>© &nbsp;酒仙网&nbsp; 2011 jiuxian.com All &nbsp;Rights Reserved&nbsp;&nbsp;<a target="_blank" href="#">京ICP证110141号</a>&nbsp;&nbsp;京公网安备1101050188221</p>
+          		<p class="red">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$("#header>div>div:nth-child(2)").mouseover(function(){
+		$(this).find("ul").show()
+	})
+	$("#header>div>div:nth-child(2)").mouseout(function(){
+		$(this).find("ul").hide()
+	})
+	$("#section>div:nth-child(1)>div>a").click(function(){
+		$(this).addClass("on").siblings().removeClass("on");
+	})
+	$("#person").click(function(){
+		$(".person").show();
+		$(".company").hide()
+	})
+	$("#company").click(function(){
+		$(".person").hide();
+		$(".company").show()
+	})
+	$(".btn").click(function(){
+		//将用户名和密码以对象的形式存储
+		var json = {
+			"username" : $("#account").val(),
+			"password" : $("#pwd").val()
+		}
+		//开始存储cookie
+		document.cookie = "userinfo="+JSON.stringify(json) ;
+		//跳转到登录页面
+		location.href = "login.html";
+	})
+</script>
